@@ -20,3 +20,4 @@ app.listen(3001, ()=>{
 app.get('/',(req,res)=>{
    res.sendFile(path.resolve(__dirname, './views/index.html'));
 })
+
